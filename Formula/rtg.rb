@@ -1,25 +1,25 @@
 class Rtg < Formula
   desc "A terminal-first Telegram client written in Rust."
   homepage "https://github.com/bercly0b/rtg"
-  version "0.1.16"
+  version "0.1.17"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bercly0b/rtg/releases/download/v0.1.16/rtg-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "ef3a2f3eb7c02f2409b2b1a6f07d65a41d3a6553503fba5c456bdc615ece4f2e"
+      url "https://github.com/bercly0b/rtg/releases/download/v0.1.17/rtg-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "504c2560f2fd43118d2c69422411d7c0edb1fa9cec8b3b281de0c338de91e535"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bercly0b/rtg/releases/download/v0.1.16/rtg-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "55fcbec7070c43b618f5e48259bf0f3b1a95985390c5cd5d6f74486f142350c6"
+      url "https://github.com/bercly0b/rtg/releases/download/v0.1.17/rtg-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "bf970c3e8fd8522ba2d6d22acc3950c7abaf08d3d4867e1594bce69a7d4fe4b7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bercly0b/rtg/releases/download/v0.1.16/rtg-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "91aa2e864065f19d9f0ddac32e751754bdea1f0c85cc283a2f094d729cd18e16"
+      url "https://github.com/bercly0b/rtg/releases/download/v0.1.17/rtg-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4bc7ff1b903dc3ee9088a5860d2daa2194e54df84bef9dcdf748076709bf9bea"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bercly0b/rtg/releases/download/v0.1.16/rtg-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cf885991a0141e4a7f97bfa143dc45e999215ca5ccd8d1f601567874e3ec75c1"
+      url "https://github.com/bercly0b/rtg/releases/download/v0.1.17/rtg-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f92b9aa0340869a2ce4280c7f345ecebd4f19649fc91a00487d6aec78c51ba29"
     end
   end
   license "MIT"
